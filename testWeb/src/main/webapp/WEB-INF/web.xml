@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>exercise</display-name>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>Day02</display-name>
+  	<servlet-name>Day02</servlet-name>
+  	<servlet-class>Day02</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>day03</display-name>
+  	<servlet-name>day03</servlet-name>
+  	<servlet-class>day03</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Day02</servlet-name>
+  	<url-pattern>/Day02</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>day03</servlet-name>
+  	<url-pattern>/day03</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+</web-app>
+
+  
+
